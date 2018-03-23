@@ -9,8 +9,8 @@
 
 source:         _app
 destination:    _site
-timezone:       Asia/Hong_Kong
-permalink:      /:categories/:title/
+timezone:       America/Los_Angeles
+permalink:      /:title.html
 markdown:       kramdown
 highlighter:    rouge
 include:        ["_pages"]
@@ -71,7 +71,7 @@ dev:            false
 # Site name
 #
 # Default:      Almace Scaffolding
-name:           Sparanoid
+name:           Almace Scaffolding
 
 # Site short name
 #
@@ -87,14 +87,14 @@ name:           Sparanoid
 # - name_short: Sparanoid
 #
 # Default:      AMSF
-name_short:     Sparanoid
+name_short:     AMSF
 
 # Site description
 #
 # Will be used in the document meta and Atom feed subtitle
 #
 # Default:      Almace Scaffolding - Super-fast Jekyll framework
-description:    I make things that don’t suck.
+description:    Almace Scaffolding - Super-fast Jekyll framework
 
 # Base URL
 #
@@ -149,12 +149,12 @@ file:           https://d349cztnlupsuf.cloudfront.net
 # Default:      https://d1bmx7s6749k4k.cloudfront.net
 download:       https://d1bmx7s6749k4k.cloudfront.net
 
-# Colors
+# Primary color
 #
 # Used by Safari mask-icon, Chrome Web App theme color
-colors:
-  theme:        "#a212d1"
-  background:   "#fff"
+#
+# Default       "#ff00b4"
+primary_color:  "#ff00b4"
 
 # Service Worker Precache
 service_worker:
@@ -219,6 +219,4 @@ credits:        true
 #   - "Disallow: /log/"
 #
 # Default:      "User-agent: *"
-robots:
-  - "User-agent: *"
-  - "Disallow: /lab/version/"
+robots:         "User-agent: *"
