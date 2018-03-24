@@ -7,14 +7,13 @@
 # Jekyll basic configurations
 #
 
-source:         _app
-destination:    _site
+source:         ./_app
+destination:    ./_site
 timezone:       America/Los_Angeles
 permalink:      /
 markdown:       kramdown
 highlighter:    rouge
-# include:        ["_pages"]
-# exclude:        ["_pages/themes"]
+include:        ["_pages"]exclude:        ["_pages/themes"]
 
 #
 # Jekyll serve settings
