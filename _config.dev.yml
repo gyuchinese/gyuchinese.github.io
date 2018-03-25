@@ -1,4 +1,5 @@
 #
+<<<<<<< HEAD
 # Jekyll basic configurations
 #
 
@@ -27,3 +28,11 @@ file:           //sparanoid.s3-website-us-east-1.amazonaws.com
 
 # Force UTF-8 since local server doesn't send charset in their respond header
 force_utf_8:    true
+=======
+# Jekyll serve settings
+#
+
+# CDN location for development
+file:           http://sparanoid.s3-website-us-east-1.amazonaws.com
+# file:           http://d349cztnlupsuf.cloudfront.net
+>>>>>>> 76b04d79202718c33ec951b2e75372359ba32954
