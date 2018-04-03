@@ -1,0 +1,2925 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sparanoid</title>
+  <subtitle>I make things that don’t suck.</subtitle>
+  <updated>2018-03-25T11:21:57+08:00</updated>
+  <id>http://0.0.0.0:4321//</id>
+  <rights>Copyright © 2018, Tunghsiao Liu</rights>
+
+  <link rel="alternate" type="text/html" hreflang="en" href="http://0.0.0.0:4321//" />
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4321/feed-work.xml" />
+
+  <author>
+    <name>Tunghsiao Liu</name>
+    <uri>http://0.0.0.0:4321//</uri>
+    <email>t@sparanoid.com</email>
+  </author>
+
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Omnibox NCR</title>
+        <id>http://0.0.0.0:4321//work/omnibox-ncr/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/omnibox-ncr/" />
+        <published>2016-11-16T00:00:00+08:00</published>
+
+        
+          <updated>2016-11-16T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;This extension, will force using google.com (aka Google No Country Redirect) when you search in Google Chrome Omnibox.&lt;/p&gt;
+
+&lt;p&gt;If you travel a lot, or you just care about privacy and use proxy to hide your real IP from another country, imagine you’re in China and using a Japanese proxy, Google always redirects you to google.co.jp when you search in Google Chrome Omnibox. This extension could definitely make your browser stick with google.com.&lt;/p&gt;
+
+&lt;h2 id=&quot;under-the-hood&quot;&gt;Under the Hood&lt;/h2&gt;
+
+&lt;p&gt;This extension simply replace the URL you request before &lt;code class=&quot;highlighter-rouge&quot;&gt;onBeforeRequest&lt;/code&gt; to google.com, no additional internet request will be made since the replace process will be done in 307 Internal Redirect.&lt;/p&gt;
+
+&lt;h2 id=&quot;downloads&quot;&gt;Downloads&lt;/h2&gt;
+
+&lt;div class=&quot;largetype&quot;&gt;
+  &lt;div&gt;&lt;a href=&quot;#!&quot; onclick=&quot;chrome.webstore.install()&quot; id=&quot;install-button&quot; disabled=&quot;&quot;&gt;Add to Chrome&lt;/a&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;a href=&quot;https://github.com/sparanoid/omnibox-ncr&quot;&gt;View source at GitHub&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;love-this&quot;&gt;Love this?&lt;/h2&gt;
+
+&lt;p&gt;Please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Intro</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>IKEA Stock Availability Checker</title>
+        <id>http://0.0.0.0:4321//work/ikea-stock-availability-checker/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/ikea-stock-availability-checker/" />
+        <published>2016-04-06T00:00:00+08:00</published>
+
+        
+          <updated>2016-04-06T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;Get all stock availability for current IKEA product in your selected country.&lt;/p&gt;
+
+&lt;h2 id=&quot;downloads&quot;&gt;Downloads&lt;/h2&gt;
+
+&lt;div class=&quot;largetype&quot;&gt;
+  &lt;div&gt;&lt;a href=&quot;#!&quot; onclick=&quot;chrome.webstore.install()&quot; id=&quot;install-button&quot; disabled=&quot;&quot;&gt;Add to Chrome&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;love-this&quot;&gt;Love this?&lt;/h2&gt;
+
+&lt;p&gt;Please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Intro</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Lightense Images</title>
+        <id>http://0.0.0.0:4321//work/lightense-images/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/lightense-images/" />
+        <published>2016-03-10T00:00:00+08:00</published>
+
+        
+          <updated>2016-03-10T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;A dependency-free pure JavaScript image zooming library less than 2 KB (gzipped). Inspired by &lt;a href=&quot;https://github.com/fat/zoom.js&quot;&gt;fat/zoom.js&lt;/a&gt; and &lt;a href=&quot;https://github.com/tholman/intense-images&quot;&gt;tholman/intense-images&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This library is mainly used by &lt;a href=&quot;/lab/amsf/&quot;&gt;Almace Scaffolding&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;High performance&lt;/li&gt;
+  &lt;li&gt;One script, no additional dependencies, no bloated styles&lt;/li&gt;
+  &lt;li&gt;Safari &lt;code class=&quot;highlighter-rouge&quot;&gt;backdrop-filter&lt;/code&gt; support&lt;/li&gt;
+  &lt;li&gt;2 KB gzipped&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npm &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;lightense-images &lt;span class=&quot;nt&quot;&gt;--save&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Or download library and save it to your project&lt;/li&gt;
+  &lt;li&gt;Or host it on a CDN and reference it via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt; tag&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Lightense library is wrapped in Universal Module Syntax (UMD), this means that out of the box, you can include it into your web application via &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt; tag, &lt;code class=&quot;highlighter-rouge&quot;&gt;import&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;require('lightense-images')&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;Lightense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;time&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;offset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;keyboard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;cubicBezier&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'cubic-bezier(.2, 0, .1, 1)'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;zIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2147483647&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;photo.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'load'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;Lightense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'img'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/girls_dead_monster_logo.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;custom-background-color&quot;&gt;Custom Background Color&lt;/h2&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;screenshot.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-background=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;rgba(0, 0, 0, .96)&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/railgun-logo.png&quot; data-background=&quot;rgba(0, 10, 45, .6)&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;custom-padding&quot;&gt;Custom Padding&lt;/h2&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;screenshot.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-padding=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-logo.png&quot; data-padding=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;disable-lightense-for-specific-elements&quot;&gt;Disable Lightense for Specific Elements&lt;/h2&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;photo.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;no-lightense&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'load'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;Lightense&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'img:not(.no-lightense)'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/imouto-logo-large.png&quot; class=&quot;no-lightense&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;div class=&quot;largetype&quot;&gt;
+  &lt;div&gt;&lt;a href=&quot;https://github.com/sparanoid/lightense-images&quot;&gt;Github&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;browser-support&quot;&gt;Browser Support&lt;/h2&gt;
+
+&lt;p&gt;All modern browsers, it “should work” in Internet Explorer 10 and up as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;love-this&quot;&gt;Love this?&lt;/h2&gt;
+
+&lt;p&gt;Please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>A dependency-free pure JavaScript image zooming library less than 2 KB (gzipped). Inspired by fat/zoom.js and tholman/intense-images.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Almace Scaffolding</title>
+        <id>http://0.0.0.0:4321//work/almace-scaffolding/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/almace-scaffolding/" />
+        <published>2015-09-09T00:00:00+08:00</published>
+
+        
+          <updated>2015-09-09T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;AMSF, a.k.a. Almace Scaffolding, is a super-fast Jekyll framework, supports live reloading (Browsersync), Less, HTML minification, inlined stylesheets and more.&lt;/p&gt;
+
+&lt;p&gt;Go to the &lt;a href=&quot;/lab/amsf/&quot;&gt;project page&lt;/a&gt; for more information.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;/lab/amsf/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>AMSF, a.k.a. Almace Scaffolding, is a super-fast Jekyll framework, supports live reloading (Browsersync), Less, HTML minification, inlined stylesheets and more.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Slimpack</title>
+        <id>http://0.0.0.0:4321//work/slimpack/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/slimpack/" />
+        <published>2015-09-08T00:00:00+08:00</published>
+
+        
+          <updated>2015-09-08T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;blockquote&gt;
+  &lt;p&gt;This plugin is no longer maintained.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Slimpack — Lightweight Jetpack. Super-fast performance without modules that require contracting WordPress.com.&lt;/p&gt;
+
+&lt;p&gt;It provides better performance than original Jetpack. All features that require a WordPress.com account or need contracting / syncing back to WordPress.com servers have been removed. You don’t need to connect to WordPress.com to use this plugin. If your site got slow response time (TTFB) after activating the original Jetpack, you should definitely try out this plugin.&lt;/p&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Transfer from Jetpack to Slimpack seamlessly, just deactivate Jetpack and activate Slimpack, all settings and module status will be kept and work just like before.&lt;/li&gt;
+  &lt;li&gt;All source code is untouched and synced from Jetpack&lt;/li&gt;
+  &lt;li&gt;Better performance than original Jetpack. All features that require a WordPress.com account have been removed. You don’t need to connect to WordPress.com to use this plugin.&lt;/li&gt;
+  &lt;li&gt;Multilingual support (and languages have already bundled in Slimpack!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://wordpress.org/plugins/slimpack/&quot;&gt;Download&lt;/a&gt; it at WordPress.org&lt;/p&gt;
+
+&lt;p&gt;Love this plugin? please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://wordpress.org/plugins/slimpack/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>Slimpack — Lightweight Jetpack. Super-fast performance without modules that require contracting WordPress.com.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>iTunes Artwork Grabber</title>
+        <id>http://0.0.0.0:4321//work/itunes-artwork-grabber/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/itunes-artwork-grabber/" />
+        <published>2015-04-21T00:00:00+08:00</published>
+
+        
+          <updated>2015-04-21T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;blockquote&gt;
+  &lt;p&gt;(Yet Another) iTunes Artwork Grabber&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;Get high-res artwork for apps, music, books, movies, TV shows, podcasts and more, all types supported. Works with Safari, Google Chrome, and Greasemonkey / Tampermonkey / Scriptish / etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;supported-types&quot;&gt;Supported Types&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;iOS app icons&lt;/li&gt;
+  &lt;li&gt;OS X app icons&lt;/li&gt;
+  &lt;li&gt;Music album covers&lt;/li&gt;
+  &lt;li&gt;Music video thumbnails&lt;/li&gt;
+  &lt;li&gt;Book covers&lt;/li&gt;
+  &lt;li&gt;Movie posters&lt;/li&gt;
+  &lt;li&gt;TV show covers&lt;/li&gt;
+  &lt;li&gt;Podcast covers&lt;/li&gt;
+  &lt;li&gt;iTunes U resource covers&lt;/li&gt;
+  &lt;li&gt;Audiobook covers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;unsupported-types&quot;&gt;Unsupported Types&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;None! (since Nov 27, 2016)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;Try this fancy &lt;a href=&quot;https://www.youtube.com/watch?v=8NVyzKb7VIY&quot;&gt;video demo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;downloads&quot;&gt;Downloads&lt;/h2&gt;
+
+&lt;div class=&quot;largetype&quot;&gt;
+  &lt;div&gt;&lt;a href=&quot;#!&quot; onclick=&quot;chrome.webstore.install()&quot; id=&quot;install-button&quot; disabled=&quot;&quot;&gt;Add to Chrome&lt;/a&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;a href=&quot;http://greasyfork.org/en/scripts/8947-itunes-artwork-grabber-by-tunghsiao-liu&quot;&gt;Download via Greasy Fork&lt;/a&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;a href=&quot;http://openuserjs.org/scripts/sparanoid/iTunes_Artwork_Grabber_by_Tunghsiao_Liu&quot;&gt;Download via OpenUserJS&lt;/a&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;a href=&quot;https://github.com/sparanoid/itunes-artwork-grabber&quot;&gt;View source at GitHub&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;love-this&quot;&gt;Love this?&lt;/h2&gt;
+
+&lt;p&gt;Please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>  (Yet Another) iTunes Artwork Grabber</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Disable WYSIWYG</title>
+        <id>http://0.0.0.0:4321//work/disable-wysiwyg/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/disable-wysiwyg/" />
+        <published>2014-09-08T00:00:00+08:00</published>
+
+        
+          <updated>2014-09-08T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;You clients are always using the crappy visual editor in your WordPress? They always paste shitty formatted texts from the internet? They also edit your posts and fuck it up? Then you should try this plugin.&lt;/p&gt;
+
+&lt;p&gt;Disable WYSIWYG sets &lt;code class=&quot;highlighter-rouge&quot;&gt;user_can_richedit&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;false&lt;/code&gt; that disables TinyMCE Visual Editor (WYSIWYG editor) totally completely permanently forever. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu). If you love this plugin, please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://wordpress.org/plugins/disable-wysiwyg/&quot;&gt;Download&lt;/a&gt; it at WordPress.org&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://wordpress.org/plugins/disable-wysiwyg/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>A WordPress plugin that sets user_can_richedit to false to disable TinyMCE Visual Editor (WYSIWYG editor) totally completely permanently forever.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>AVOS Cloud</title>
+        <id>http://0.0.0.0:4321//work/avoscloud/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/avoscloud/" />
+        <published>2014-05-16T00:00:00+08:00</published>
+
+        
+          <updated>2014-05-16T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;a href=&quot;http://avoscloud.com&quot;&gt;AVOS Cloud&lt;/a&gt;, one of the most famous Chinese local (m)BaaS platform. Me and the whole team have been working on this project since last year. Now it's a spin-off of &lt;a href=&quot;http://avos.com/&quot;&gt;AVOS Systems, Inc.&lt;/a&gt; focuses on tech startups and local companies in China.&lt;/p&gt;
+
+&lt;p&gt;I'm working on this site as a &quot;hybird&quot; designer to create eye-catching interactions and provide easy-to-use dashboard for every developer.&lt;/p&gt;
+
+&lt;h2&gt;AVOS Cloud Homepage&lt;/h2&gt;
+&lt;p&gt;The background cubes are animated and written in pure CSS, the color schemes of the page can also be changed according to different slices. You can check out &lt;a href=&quot;http://codepen.io/sparanoid/pen/axiKF&quot;&gt;this pen&lt;/a&gt; for a simple 3D cubes demo.&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-01-cropped.png&quot; alt=&quot;AVOS Cloud Homepage Slides #1&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-02-cropped.png&quot; alt=&quot;AVOS Cloud Homepage Slides #2&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-03-cropped.png&quot; alt=&quot;AVOS Cloud Homepage Slides #3&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-04-cropped.png&quot; alt=&quot;AVOS Cloud Homepage Slides #4&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-05-cropped.png&quot; alt=&quot;AVOS Cloud Homepage Slides #5&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;AVOS Cloud Features Page&lt;/h2&gt;
+&lt;p&gt;A full features list providing Overview, How it Works, and Resources.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-features-small-merged.jpg&quot; alt=&quot;AVOS Cloud Features Overview&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-features-01.png&quot; alt=&quot;AVOS Cloud Features Slides #1&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-features-02.png&quot; alt=&quot;AVOS Cloud Features Slides #2&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-features-03.png&quot; alt=&quot;AVOS Cloud Features Slides #3&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-features-04.png&quot; alt=&quot;AVOS Cloud Features Slides #4&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;AVOS Cloud Pricing Page&lt;/h2&gt;
+&lt;p&gt;The pricing modal can slide out without redirecting to another page. Color schemes of this modal are dynamic, too.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-pricing-merged-new.jpg&quot; alt=&quot;Delicious Landing Page&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-pricing-new-01.png&quot; alt=&quot;AVOS Cloud Pricing Slides #1&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-pricing-new-02.png&quot; alt=&quot;AVOS Cloud Pricing Slides #2&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-pricing-new-03.png&quot; alt=&quot;AVOS Cloud Pricing Slides #3&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-pricing-new-04.png&quot; alt=&quot;AVOS Cloud Pricing Slides #4&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/avoscloud-homepage-pricing-new-05.png&quot; alt=&quot;AVOS Cloud Pricing Slides #5&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://avoscloud.com/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>AVOS Cloud, one of the most famous Chinese local (m)BaaS platform. Me and the whole team have been working on this project since last year. Now it's a spin-off of AVOS Systems, Inc. focuses on tech startups and local companies in China.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Space Lover</title>
+        <id>http://0.0.0.0:4321//work/space-lover/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/space-lover/" />
+        <published>2014-03-26T00:00:00+08:00</published>
+
+        
+          <updated>2014-03-26T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;This plugin magically adds an extra space between Chinese characters and English letters / numbers / common punctuation marks. A must-have plugin if you’re running a Chinese blog. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu). If you love this plugin, please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://wordpress.org/plugins/space-lover/&quot;&gt;Download&lt;/a&gt; it at WordPress.org&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://wordpress.org/plugins/corner-bracket-lover/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>This WordPress plugin magically adds an extra space between Chinese characters and English letters / numbers / common punctuation marks</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Moonstruck Princess Extended</title>
+        <id>http://0.0.0.0:4321//work/moonstruck-princess-ext/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/moonstruck-princess-ext/" />
+        <published>2014-01-06T00:00:00+08:00</published>
+
+        
+          <updated>2014-01-06T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-bw.png&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-bw.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-red.png&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-red.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-orange.png&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-orange.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-yellow.png&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-yellow.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-green.png&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-green.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-blue.png&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-blue.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-purple.png&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-purple.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-gray.png&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-ext-gray.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;Moonstruck Princess Extended (Remix) version, click the images above to download the wallpapers. (4K, 5136 &amp;times; 2160)&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Moonstruck princess in my dream, inspired by you.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Delicious Redesign</title>
+        <id>http://0.0.0.0:4321//work/delicious/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/delicious/" />
+        <published>2013-11-01T00:00:00+08:00</published>
+
+        
+          <updated>2013-11-01T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;a href=&quot;http://delicious.com/&quot;&gt;Delicious&lt;/a&gt; (aka. del.icio.us) is a social bookmarking web service for storing, sharing, and discovering web bookmarks that first launched back in 2003. In 2005 it was acquired by Yahoo and later sold to AVOS Systems Inc. The website’s design hasn’t changed very much since its last redesign in 2011.&lt;/p&gt;
+
+&lt;p&gt;This year, to celebrate its ten year anniversary, AVOS invited me to join the Delicious team, I do designs and front-end stuff, collaborated with the developer &lt;a href=&quot;http://sunng.info/&quot;&gt;Ning Sun&lt;/a&gt; (&lt;a href=&quot;/work/readwise/&quot;&gt;again&lt;/a&gt;) from AVOS on this project.&lt;/p&gt;
+
+&lt;p&gt;Update: Delicious now has been acquired by &lt;a href=&quot;http://science-inc.com/&quot;&gt;Science Inc.&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious New Logo&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-logo.png&quot; alt=&quot;Delicious New Logo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious Iconset&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-iconset.png&quot; alt=&quot;Delicious Iconset&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious UI Preview&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com.png&quot; alt=&quot;Delicious UI Preview&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some fun facts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Brand-new brighter version of Delicious logo. (Time took: 5 minutes)&lt;/li&gt;
+  &lt;li&gt;No images used on this project. all styles are served by a ~23 KB gzipped CSS file. Hum, okay, there’s only one icon font and some SVG graphics and&amp;hellip;&lt;/li&gt;
+  &lt;li&gt;The new design is responsive, I even spent more time on the mobile viewport, or I can say, it’s a mobile-first design. Try it out on your iPhone, it works smooth and intuitive.&lt;/li&gt;
+  &lt;li&gt;Delicious logo is made of pure CSS.&lt;/li&gt;
+  &lt;li&gt;I didn’t write any vendor prefix for this project. (Or let me say: &lt;a href=&quot;https://github.com/ai/autoprefixer&quot;&gt;Autoprefixer&lt;/a&gt; rocks).&lt;/li&gt;
+  &lt;li&gt;We use Application Cache to speed up the page load times.&lt;/li&gt;
+  &lt;li&gt;We use &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;I worked remotely (from home) for all these things.&lt;/li&gt;
+  &lt;li&gt;The author of &lt;a href=&quot;http://www.abookapart.com/products/mobile-first&quot;&gt;Mobile First&lt;/a&gt;, former Yahoo! design architect, &lt;a href=&quot;http://www.lukew.com/&quot;&gt;Luke Wroblewski&lt;/a&gt; also &lt;a href=&quot;https://twitter.com/lukew/status/384744062361686017&quot;&gt;tweeted&lt;/a&gt; about it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Delicious Landing Page&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-homepage.png&quot; alt=&quot;Delicious Landing Page&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious Landing Page (Mouseover)&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-homepage-hover.png&quot; alt=&quot;Delicious Landing Page (Mouseover)&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;More Screenshots: Delicious Login Window&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-01.png&quot; alt=&quot;Delicious Login Window&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious Signup Form&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-02.png&quot; alt=&quot;Delicious Signup Form&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - Useful Tools&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-03.png&quot; alt=&quot;Delicious - Useful Tools&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - Developing for Delicious&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-04.png&quot; alt=&quot;Delicious - Developing for Delicious&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - About&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-05.png&quot; alt=&quot;Delicious - About&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - My Links&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-06.png&quot; alt=&quot;Delicious - My Links&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - Manage Subscriptions&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-07.png&quot; alt=&quot;Delicious - Manage Subscriptions&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - Search&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-08.png&quot; alt=&quot;Delicious - Search&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - Share a Link&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-09.png&quot; alt=&quot;Delicious - Share a Link&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - Edit a Link&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-10.png&quot; alt=&quot;Delicious - Edit a Link&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - Mass Edit Links&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-11.png&quot; alt=&quot;Delicious - Mass Edit Links&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Delicious - Keyboard Shortcuts&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/delicious.com-screenshot-12.png&quot; alt=&quot;Delicious - Keyboard Shortcuts&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Science Inc., a tech advisory firm run by former Myspace chief Michael Jones, confirmed the deal in a &lt;a href=&quot;http://science-inc.com/about/blog/2014/05/08/welcome-delicious-as-the-cornerstone-asset-of-our-new-data-content-group/&quot;&gt;blog post&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://delicious.com/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>Delicious (aka. del.icio.us) is a social bookmarking web service for storing, sharing, and discovering web bookmarks that first launched back in 2003. In 2005 it was acquired by Yahoo and later sold to AVOS Systems Inc. The website’s design hasn’t changed very much since its last redesign in 2011.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Tianjin Project Revision</title>
+        <id>http://0.0.0.0:4321//work/tianjin-project-revision/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/tianjin-project-revision/" />
+        <published>2013-10-29T00:00:00+08:00</published>
+
+        
+          <updated>2013-10-29T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;This is just another revision for the original &lt;a href=&quot;/work/tianjin-project/&quot;&gt;Tianjin Project&lt;/a&gt;, optimized for recently introduced iBooks for OS X. I also redesigned a new cover for it.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;
+  &lt;a href=&quot;https://itunes.apple.com/us/book/tianjin/id1050471618?mt=13&quot;&gt;Read it on your Mac&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h2&gt;Index Overview&lt;/h2&gt;
+&lt;p class=&quot;screenshot-mac&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-revision-el-capitan-01.jpg&quot; alt=&quot;Index Overview&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;p class=&quot;screenshot-mac&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-revision-el-capitan-02.jpg&quot; alt=&quot;Table of Contents&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Bookmarks&lt;/h2&gt;
+&lt;p class=&quot;screenshot-mac&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-revision-el-capitan-03.jpg&quot; alt=&quot;Bookmarks&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Full-context Search&lt;/h2&gt;
+&lt;p class=&quot;screenshot-mac&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-revision-el-capitan-04.jpg&quot; alt=&quot;Full-context Search&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Sharing notes&lt;/h2&gt;
+&lt;p class=&quot;screenshot-mac&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-revision-el-capitan-05.jpg&quot; alt=&quot;Sharing notes&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Glossary&lt;/h2&gt;
+&lt;p class=&quot;screenshot-mac&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-revision-el-capitan-06.jpg&quot; alt=&quot;Glossary&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Glossary List&lt;/h2&gt;
+&lt;p class=&quot;screenshot-mac&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-revision-el-capitan-07.jpg&quot; alt=&quot;Glossary List&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Study Cards&lt;/h2&gt;
+&lt;p class=&quot;screenshot-mac&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-revision-el-capitan-08.jpg&quot; alt=&quot;Study Cards&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;note&quot;&gt;You can also view the &lt;a href=&quot;/work/tianjin-project/&quot;&gt;original version&lt;/a&gt; of this project.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>This is just another revision for the original Tianjin Project, optimized for recently introduced iBooks for OS X. I also redesigned a new cover for it.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>IterCast</title>
+        <id>http://0.0.0.0:4321//work/itercast/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/itercast/" />
+        <published>2013-08-07T00:00:00+08:00</published>
+
+        
+          <updated>2013-08-07T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;a href=&quot;http://itercast.com/&quot;&gt;IterCast&lt;/a&gt; (previous LinuxCast), An an online interactive education platform that offers coding courses in programming languages like Python, JavaScript, and Objective-C, database management courses such as MySQL and Oracle, Cisco Career certifications such as CCNA and CCNP Security, as well as markup languages such as HTML and CSS. All classes are free to everyone. I do design and front-end stuff for this project.&lt;/p&gt;
+
+&lt;p&gt;Update: this project is now been discontinued, but you can see a cached site from my website.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/itercast-banners-2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/itercast-icons-2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/itercast-01.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of my favorite part of this project is the error pages, You really should check out the animated version:&lt;/p&gt;
+
+&lt;p class=&quot;browser&quot;&gt;&lt;a href=&quot;/lab/itercast/error-404-403.html&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/itercast-02.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=&quot;browser&quot;&gt;&lt;a href=&quot;/lab/itercast/error-503.html&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/itercast-03.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;/lab/itercast/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>IterCast (previous LinuxCast), An an online interactive education platform that offers coding courses in programming languages like Python, JavaScript, and Objective-C, database management courses such as MySQL and Oracle, Cisco Career certifications such as CCNA and CCNP Security, as well as markup languages such as HTML and CSS. All classes are free to everyone. I do design and front-end stuff for this project.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Kai Series</title>
+        <id>http://0.0.0.0:4321//work/kai/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/kai/" />
+        <published>2013-03-23T00:00:00+08:00</published>
+
+        
+          <updated>2013-03-23T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;「改」Series (a.k.a. Kai), is a series of the missing child themes for WordPress default theme &lt;a href=&quot;http://wordpress.org/extend/themes/twentytwelve&quot;&gt;Twenty Twelve&lt;/a&gt;, &lt;a href=&quot;http://wordpress.org/extend/themes/twentyeleven&quot;&gt;Twenty Eleven&lt;/a&gt;, and &lt;a href=&quot;http://wordpress.org/extend/themes/twentyten&quot;&gt;Twenty Ten&lt;/a&gt;. The suffix “Kai” of this series is inspired from Japanese anime &lt;a href=&quot;http://www.toei-anim.co.jp/tv/dragon_kai/&quot;&gt;ドラゴンボール改&lt;/a&gt; (a.k.a. Dragon Ball Kai).&lt;/p&gt;
+
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Written in &lt;a href=&quot;http://lesscss.org/&quot;&gt;Less&lt;/a&gt;, no IE support&lt;/li&gt;
+  &lt;li&gt;Better font stack for Chinese, Japanese and other asian languages&lt;/li&gt;
+  &lt;li&gt;Better code snippets style&lt;/li&gt;
+  &lt;li&gt;Adds &lt;code&gt;.well&lt;/code&gt; block inspired by &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Fix media query issue&lt;/li&gt;
+  &lt;li&gt;Theme updater support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;downloads&quot;&gt;Downloads&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/kai-12.zip&quot;&gt;Kai 12&lt;/a&gt;, (&lt;a href=&quot;https://github.com/sparanoid/kai-12&quot;&gt;source code&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/kai-11.zip&quot;&gt;Kai 11&lt;/a&gt;, (&lt;a href=&quot;https://github.com/sparanoid/kai-11&quot;&gt;source code&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/kai-10.zip&quot;&gt;Kai 10&lt;/a&gt;, (&lt;a href=&quot;https://github.com/sparanoid/kai-10&quot;&gt;source code&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;faq&quot;&gt;FAQ&lt;/h2&gt;
+
+&lt;p&gt;Q: “Why not submit these themes to WordPress.org official repository?”&lt;/p&gt;
+
+&lt;p&gt;A: Their theme reviewer thinks my theme “just offer a few minor CSS tweaks and adds new footer credit links” &lt;a href=&quot;http://themes.trac.wordpress.org/ticket/10728&quot;&gt;#&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>The missing child themes for your WordPress default theme Twenty Twelve, Twenty Eleven and Twenty Ten</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>ReadWise</title>
+        <id>http://0.0.0.0:4321//work/readwise/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/readwise/" />
+        <published>2012-12-13T00:00:00+08:00</published>
+
+        
+          <updated>2012-12-13T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;As known as 「美味爱读」. An online reading web app by AVOS System, Inc. I do design and front-end stuff and teamed up with &lt;a href=&quot;http://sunng.info/&quot;&gt;Sun Ning&lt;/a&gt; for this project.&lt;/p&gt;
+
+&lt;p&gt;An interesting thing I’d have to mention is sooner after we launched this project Google announced to close Google Reader on July 1.&lt;/p&gt;
+
+&lt;p&gt;Note: this project is now closed, but you can see a cached homepage from my website.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;/lab/readwise/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>As known as 「美味爱读」. An online reading web app by AVOS System, Inc. I do design and front-end stuff and teamed up with Sun Ning for this project.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Corner Bracket Lover</title>
+        <id>http://0.0.0.0:4321//work/corner-bracket-lover/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/corner-bracket-lover/" />
+        <published>2012-12-12T00:00:00+08:00</published>
+
+        
+          <updated>2012-12-12T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;b&gt;Corner Bracket Lover&lt;/b&gt; is a WordPress plugin to convert all curly quotation marks (&lt;code&gt;“”&lt;/code&gt; and &lt;code&gt;‘’&lt;/code&gt;) in your posts to traditional corner brackets (&lt;code&gt;「」&lt;/code&gt; and &lt;code&gt;『』&lt;/code&gt;). A must-have plugin if you're a Chinese writer or just a corner brackets lover. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu). If you love this plugin, please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://wordpress.org/extend/plugins/corner-bracket-lover/&quot;&gt;Download&lt;/a&gt; it at WordPress.org&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://wordpress.org/plugins/corner-bracket-lover/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>A WordPress plugin to convert all curly quotation marks in your posts to traditional corner brackets.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Instagram Badges</title>
+        <id>http://0.0.0.0:4321//work/instagram-badges/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/instagram-badges/" />
+        <published>2012-11-25T00:00:00+08:00</published>
+
+        
+          <updated>2012-11-25T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;Adds &lt;a href=&quot;http://blog.instagram.com/post/36222022872/introducing-instagram-badges&quot;&gt;Instagram badges&lt;/a&gt; to your WordPress blog that will help you link to and promote your Instagram profile. A must-have plugin if you're a photo lover. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu). If you love this plugin, please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://wordpress.org/extend/plugins/instagram-badges/&quot;&gt;Download&lt;/a&gt; it at WordPress.org&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://wordpress.org/plugins/instagram-badges/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>Adds Instagram badges to your WordPress blog that will help you link to and promote your Instagram profile.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Relative URL</title>
+        <id>http://0.0.0.0:4321//work/relative-url/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/relative-url/" />
+        <published>2012-09-16T00:00:00+08:00</published>
+
+        
+          <updated>2012-09-16T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;b&gt;Relative URL&lt;/b&gt; is a WordPress plugin to apply &lt;code&gt;wp_make_link_relative&lt;/code&gt; function to links (posts, categories, pages and etc.) to convert them to relative URLs. Useful for developers when debugging local WordPress instance on a mobile device (iPad. iPhone, etc.). If you love this plugin, please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://wordpress.org/extend/plugins/relative-url/&quot;&gt;Download&lt;/a&gt; it at WordPress.org&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://wordpress.org/plugins/relative-url/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>A WordPress plugin to apply wp_make_link_relative function to links to convert them to relative URLs.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Tianjin Project × WEF</title>
+        <id>http://0.0.0.0:4321//work/tianjin-project-wef/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/tianjin-project-wef/" />
+        <published>2012-07-26T00:00:00+08:00</published>
+
+        
+          <updated>2012-07-26T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p class=&quot;note&quot;&gt;There's a &lt;a href=&quot;/work/tianjin-project-revision/&quot;&gt;newer revision&lt;/a&gt; of this project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/work/tianjin-project/&quot;&gt;Tianjin Project&lt;/a&gt; is now featured on the World Economic Forum (WEF) - Tianjin Davos 2012. Created using iBooks Author, for iPad only.&lt;/p&gt;
+
+&lt;h2&gt;Book Preview&lt;/h2&gt;
+&lt;p&gt;&lt;img class=&quot;no-enlarge&quot; src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-project-wef-preview-merged.jpg&quot; alt=&quot;Tianjin Project &amp;times; World Economic Forum Book Preview&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>A Detailed Introduction to Municipality of Tianjin featured on the World Economic Forum</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Tianjin Project</title>
+        <id>http://0.0.0.0:4321//work/tianjin-project/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/tianjin-project/" />
+        <published>2012-06-11T00:00:00+08:00</published>
+
+        
+          <updated>2012-06-11T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p class=&quot;note&quot;&gt;There's a &lt;a href=&quot;/work/tianjin-project-revision/&quot;&gt;newer revision&lt;/a&gt; of this project.&lt;/p&gt;
+
+&lt;p class=&quot;note&quot;&gt;Now this project is featured on &lt;a href=&quot;/work/tianjin-project-wef/&quot;&gt;The World Economic Forum - Tianjin Davos 2012&lt;/a&gt;. You can also check out the &lt;a href=&quot;/lab/tianjin/&quot;&gt;project page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;https://d1bmx7s6749k4k.cloudfront.net/Tianjin.ibooks&quot;&gt;Download&lt;/a&gt; it for iPad. (No iPad? Here’s a &lt;a href=&quot;https://d1bmx7s6749k4k.cloudfront.net/Tianjin.pdf&quot;&gt;PDF version&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2&gt;Book Preview&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;no-enlarge&quot; src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-project-preview-merged.jpg&quot; alt=&quot;Tianjin Project Book Preview #6&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;no-enlarge&quot; src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-project-preview-01.jpg&quot; alt=&quot;Tianjin Project Book Preview #1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;no-enlarge&quot; src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-project-preview-02.jpg&quot; alt=&quot;Tianjin Project Book Preview #2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;no-enlarge&quot; src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-project-preview-03.jpg&quot; alt=&quot;Tianjin Project Book Preview #3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;no-enlarge&quot; src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-project-preview-04.jpg&quot; alt=&quot;Tianjin Project Book Preview #4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;no-enlarge&quot; src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-project-preview-05.jpg&quot; alt=&quot;Tianjin Project Book Preview #5&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Promo Video&lt;/h2&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/54786277?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;badge=0&amp;amp;color=a212d1&quot; width=&quot;750&quot; height=&quot;422&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;/lab/tianjin/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>A Detailed Introduction to Municipality of Tianjin</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Path Menu in CSS</title>
+        <id>http://0.0.0.0:4321//work/path-menu-in-css/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/path-menu-in-css/" />
+        <published>2011-12-07T00:00:00+08:00</published>
+
+        
+          <updated>2011-12-07T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;In case you missed it: I recently created a &lt;a href=&quot;https://path.com/&quot;&gt;Path&lt;/a&gt; menu using CSS. You can view the demo &lt;a href=&quot;/lab/path-menu/&quot;&gt;on my website&lt;/a&gt; or check it out on &lt;a href=&quot;http://drbl.in/cwcK&quot;&gt;Dribbble&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;/lab/path-menu/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>In case you missed it: I recently created a Path menu using CSS. You can view the demo on my website or check it out on Dribbble.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Crystallized Dream</title>
+        <id>http://0.0.0.0:4321//work/crystallized-dream/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/crystallized-dream/" />
+        <published>2011-08-28T00:00:00+08:00</published>
+
+        
+          <updated>2011-08-28T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/crystallized-dream.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I really enjoyed painting this one. Thanks to GarageBand and di.fm.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Moonstruck princess in my dream, under the umbrella.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Moonstruck Princess</title>
+        <id>http://0.0.0.0:4321//work/moonstruck-princess/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/moonstruck-princess/" />
+        <published>2011-07-31T00:00:00+08:00</published>
+
+        
+          <updated>2011-07-31T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess.jpg&quot; alt=&quot;Moonstruck Princess&quot; data-background=&quot;rgba(0, 0, 0, .5)&quot; data-padding=&quot;0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Inspired by my dream.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moonstruck-princess-wallpaper.png&quot;&gt;Wallpaper ver.&lt;/a&gt; (2560 x 1440)&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Moonstruck princess in my dream, inspired by you.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Project Railgun</title>
+        <id>http://0.0.0.0:4321//work/railgun/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/railgun/" />
+        <published>2011-07-19T00:00:00+08:00</published>
+
+        
+          <updated>2011-07-19T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/railgun-avatar.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;對我來說這是第一次做這麼大的工程，感覺還是有很大不同的，給自己做的時候只需要在腦子里構思就好了，而現在，除非我是 boss，這些都需要經過一系列的複雜步驟才能實現出來，也許這就是團隊合作吧&lt;/p&gt;
+
+&lt;h2&gt;Railgun Homepage Redesign&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/railgun.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Advanced Search Page&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/railgun-search-large.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Administrator Control Dialog&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/railgun-tag-large.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Error Page Redesign&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/railgun-error-large.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;在高級搜索功能上用了不少功夫，最初還想把 checkbox 和 radio 加上樣式，但遇到了兼容問題還是放棄了&lt;/p&gt;
+&lt;p lang=&quot;zh&quot;&gt;是後台的管理部份。當時發在了 Dribbble 上被 &lt;a href=&quot;https://twitter.com/csee&quot; title=&quot;&quot;&gt;@csee&lt;/a&gt; 提了配色的建議（這裡還要感謝他給我提供了 Dribbble 的 invite），後來雖然也把整體配色做了改進，但殘念的是細節卻沒甚麼變化&lt;/p&gt;
+&lt;p lang=&quot;zh&quot;&gt;另外我還為 Tora 醬做了不少維護頁面（Illustration by 唯）&lt;/p&gt;
+
+&lt;h2&gt;Sub-project JSharer&lt;/h2&gt;
+
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/railgun-jsharer-large.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;JSharer, aka. Project Molten Core, anime based file-hosting sites. No massive images and complex layouts. Just simple CSS + HTML frontend site.&lt;/p&gt;
+
+&lt;h2&gt;Sub-project MoeID Passport&lt;/h2&gt;
+
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/moeid.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;MoeID passport redesign for JSharer Community&lt;br /&gt;「極享」動漫社區通行證頁面&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://ra.gg/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>A Japanese ACG (Animations, Comics and Games) community</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Start Page</title>
+        <id>http://0.0.0.0:4321//work/start-page/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/start-page/" />
+        <published>2011-07-18T00:00:00+08:00</published>
+
+        
+          <updated>2011-07-18T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;Start Page for your browser. The best browser homepage in the world, probably. Inspired by &lt;a href=&quot;http://lifepath.me/&quot;&gt;Lifepath&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;/lab/start/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>Start Page for your browser. The best browser homepage in the world, probably.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>030Buy Hiring Page</title>
+        <id>http://0.0.0.0:4321//work/030buy-hiring/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/030buy-hiring/" />
+        <published>2011-07-17T00:00:00+08:00</published>
+
+        
+          <updated>2011-07-17T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;h2&gt;Original Character Design Sketch&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/030buy-hiring-sketch-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Original Character Design Sketch (Filled)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/030buy-hiring-sketch-02-original.png&quot; data-background=&quot;rgba(45, 102, 84, 0.9)&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Webpage&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/030buy-hiring.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can visit this page &lt;a href=&quot;http://re.030buy.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>030Buy hiring page for a Japanese ACG (Animations, Comics and Games) community</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Project 030Buy</title>
+        <id>http://0.0.0.0:4321//work/030buy/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/030buy/" />
+        <published>2011-07-10T00:00:00+08:00</published>
+
+        
+          <updated>2011-07-10T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;h2&gt;Checkout Page #1&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/030buy-01.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Order list&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/030buy-04.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Checkout Page #1&lt;/h2&gt;
+&lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/030buy-02.png&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://030buy.com/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>030Buy online shopping site for a Japanese ACG (Animations, Comics and Games) community</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>find.ac Alter</title>
+        <id>http://0.0.0.0:4321//work/findac-alter/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/findac-alter/" />
+        <published>2011-07-05T00:00:00+08:00</published>
+
+        
+          <updated>2011-07-05T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/find.ac-alter.jpg&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>find.ac Alter merchant page for a Japanese ACG (Animations, Comics and Games) community</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Tianjin Impression Brochure</title>
+        <id>http://0.0.0.0:4321//work/tianjin-impression-brochure/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/tianjin-impression-brochure/" />
+        <published>2011-05-08T00:00:00+08:00</published>
+
+        
+          <updated>2011-05-08T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-impression-brochure-01.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-impression-brochure-02.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-impression-brochure-03.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-impression-brochure-04.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/tianjin-impression-brochure-05.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tianjin Impression brochure for my college work. Thanks to BK HAN, pomphorhynchus, Bad Jim, kilroy238, Takayuki Shiraiwa and I.S.S&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Tianjin Impression brochure for my college work</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>fogbound-highrise</title>
+        <id>http://0.0.0.0:4321//work/fogbound-highrise/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/fogbound-highrise/" />
+        <published>2011-03-07T00:00:00+08:00</published>
+
+        
+          <updated>2011-03-07T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p class=&quot;browser&quot;&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/fogbound-highrise-screenshot-large.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Version 15, source code hosted at &lt;a href=&quot;https://github.com/sparanoid/sparanoid.com&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>The 15th version of sparanoid.com, featuring Jekyll</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Readability Buttons</title>
+        <id>http://0.0.0.0:4321//work/readability/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/readability/" />
+        <published>2011-02-20T00:00:00+08:00</published>
+
+        
+          <updated>2011-02-20T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;strong&gt;Readability Buttons&lt;/strong&gt; is a WordPress plugin to add readability.com widget on your site. A must-have plugin if you’re a Readability &lt;del&gt;publisher&lt;/del&gt; user &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu). If you love this plugin, please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://wordpress.org/extend/plugins/readability-buttons/&quot;&gt;Download&lt;/a&gt; it at WordPress.org&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://blog.readability.com/2012/06/announcement/&quot;&gt;An Important Announcement&lt;/a&gt; by Richard Ziade at Readability &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://wordpress.org/plugins/readability-buttons/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>A WordPress plugin to add readability.com widget on your site. A must-have plugin if you’re a Readability publisher. This plugin also works fine with multisite enabled WordPress (aka. WordPress Mu).</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>SlimBox &amp; VoxGrowl</title>
+        <id>http://0.0.0.0:4321//work/slimbox-and-voxgrowl/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/slimbox-and-voxgrowl/" />
+        <published>2010-12-05T00:00:00+08:00</published>
+
+        
+          <updated>2010-12-05T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;video poster=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/slimbox-voxgrowl.png&quot; preload=&quot;none&quot; controls=&quot;&quot;&gt;
+  &lt;source src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/slimbox-voxgrowl.mov&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;Yes, These two &lt;a href=&quot;http://growl.info/&quot;&gt;Growl&lt;/a&gt; styles are now updated, I’m fed up with the white one so I change the SlimBox to a dark one in this version. VoxGrowl is used for &lt;a href=&quot;http://www.voxapp.uni.cc/&quot;&gt;Vox&lt;/a&gt; music player for OS X, but it also can be used by any other music player that displays album art. You can have a quick preview here:&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/SlimBox-1.2.dmg&quot;&gt;SlimBox-1.2.dmg&lt;/a&gt; (70 KB)&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/VoxGrowl-1.2.dmg&quot;&gt;VoxGrowl-1.2.dmg&lt;/a&gt; (370 KB)&lt;/p&gt;
+
+&lt;p class=&quot;store&quot;&gt;Love these styles? please consider &lt;a href=&quot;/donate/&quot;&gt;making a donation&lt;/a&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>The missing Growl styles for OS X</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Lucky Star for QQ / Sogou Pinyin</title>
+        <id>http://0.0.0.0:4321//work/lucky-star-ime-theme/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/lucky-star-ime-theme/" />
+        <published>2010-09-15T00:00:00+08:00</published>
+
+        
+          <updated>2010-09-15T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/lucky-star-for-sogou_large.png&quot; alt=&quot;Lucky Star Theme for QQ/Sogou Pinyin IME&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lucky Star skin for QQ Pinyin IME (QQ 拼音輸入法) &lt;i&gt;&amp;amp;&lt;/i&gt; Sougou Pinyin IME (搜狗拼音輸入法), based on Japanese anime Lucky☆Star「らき☆すた」&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://shuru.qq.com/skin_detail?skin_id=4293199403&quot;&gt;lucky-star.qpys&lt;/a&gt; (? KB) / &lt;a href=&quot;http://pinyin.sogou.com/skins/sv_307818.html&quot;&gt;lucky-star.ssf&lt;/a&gt; (? KB)&lt;/p&gt;
+
+&lt;p class=&quot;store&quot;&gt;Love this skin? please consider &lt;a href=&quot;/donate/&quot;&gt;making a donation&lt;/a&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary></summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>DOLLARS Chat Room</title>
+        <id>http://0.0.0.0:4321//work/drrr/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/drrr/" />
+        <published>2010-05-03T00:00:00+08:00</published>
+
+        
+          <updated>2010-05-03T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;A chat room web app inspired by Japanese anime 「デュラララ!!」. DOLLARS Chat Room was registered on April 28, 2010. It was closed at the end of the year and reloaded on July 25, 2011. Source code based on &lt;a href=&quot;http://code.google.com/p/drrr-like-chat/&quot;&gt;drrr-like-chat&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://drrr.com/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>A chat room web app inspired by Japanese anime 「デュラララ!!」. DOLLARS Chat Room was registered on April 28, 2010. It was closed at the end of the year and reloaded on July 25, 2011. Source code based on drrr-like-chat.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Antiskill, Judgment Icon Set and Screensaver</title>
+        <id>http://0.0.0.0:4321//work/judgment-screensaver-icon/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/judgment-screensaver-icon/" />
+        <published>2010-03-07T00:00:00+08:00</published>
+
+        
+          <updated>2010-03-07T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;Antiskill &lt;i&gt;&amp;amp;&lt;/i&gt; Judgment Section 177 screensaver and icons, auto-scale screensaver tested up to 2560 &amp;times; 1600.&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;學園都市風紀委員 177 支部＆警備員 スクリーンセーバー＆アイコン from「とある科學の超電磁砲」&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/judgment-screensaver-icon-from-academy-city-02.png&quot; alt=&quot;Judgment Screensaver from Academy City Screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/judgment-screensaver-icon-from-academy-city-00.png&quot; alt=&quot;Judgment Icon from Academy City&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/antiskill-screensaver-from-academy-city-02.jpg&quot; alt=&quot;Original Antiskill Screensaver from Academy City&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;來自學園都市風紀委員 177 支部的屏保，網上之前貌似有人做過，但效果不理想，重新做一下，自適應寬高比，最大測試過 2560 &amp;times; 1600 的顯示器。另外做安裝包的同時順帶做了個圖標，&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/judgment-screensaver-icon-from-academy-city-01.png&quot;&gt;內含七種顔色&lt;/a&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;來自學園都市警備員的屏幕保護，在第 24 話中出現過，自適應寬高比，最大測試過 2560 &amp;times; 1600 的顯示器。由于警備員的圖標並不十分美觀，所以安裝包就沿用了風紀委員的&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/judgment_icon.7z&quot;&gt;Download&lt;/a&gt; / judgment_icon.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/judgment_library.7z&quot;&gt;Download&lt;/a&gt; / judgment_library.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/judgment_screensaver.7z&quot;&gt;Download&lt;/a&gt; / judgment_screensaver.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/judgment_screensaver_chs.exe&quot;&gt;Download&lt;/a&gt; / judgment_screensaver_chs.exe&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/judgment_screensaver_en.exe&quot;&gt;Download&lt;/a&gt; / judgment_screensaver_en.exe&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/antiskill_screensaver.7z&quot;&gt;Download&lt;/a&gt; / antiskill_screensaver.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/antiskill_screensaver_chs.exe&quot;&gt;Download&lt;/a&gt; / antiskill_screensaver_chs.exe&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/antiskill_screensaver_en.exe&quot;&gt;Download&lt;/a&gt; / antiskill_screensaver_en.exe&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Based on Toaru Kagaku no Railgun「とある科学の超電磁砲」</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>imouto.tk - Online Painting</title>
+        <id>http://0.0.0.0:4321//work/imouto.tk/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/imouto.tk/" />
+        <published>2010-02-10T00:00:00+08:00</published>
+
+        
+          <updated>2010-02-10T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;An online painting website side-project. .tk domain is free to register. I’ll move it to my main domain if I have more spare time.&lt;/p&gt;
+
+&lt;p class=&quot;note&quot;&gt;Unfortunately, the project has been discountinued, however you can grab the &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/screenshot/imouto.tk%20-%202010-04-17%20-%2001-21-15.png&quot;&gt;last seen screenshot&lt;/a&gt;.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>imouto.tk - Online Painting site.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>foobar2000 - MonoLite Plus</title>
+        <id>http://0.0.0.0:4321//work/monolite-plus/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/monolite-plus/" />
+        <published>2009-11-23T00:00:00+08:00</published>
+
+        
+          <updated>2009-11-23T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-04.jpg&quot; alt=&quot;MonoLite Plus&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;note&quot;&gt;Lastest Version: &lt;strong&gt;0.4.3&lt;/strong&gt; for foobar2000 1.0 / &lt;strong&gt;0.2&lt;/strong&gt; for foobar2000 0.9.6.9&lt;/p&gt;
+
+&lt;p class=&quot;note&quot;&gt;0.4.* 版本的 Last.fm 同步功能可能會在退出 foobar2000 時隨機出現錯誤提示，但不會影響正常使用&lt;/p&gt;
+
+&lt;h2&gt;什麽是 MonoLite Plus？&lt;/h2&gt;
+
+&lt;p&gt;MonoLite Plus 是一款基于 &lt;a href=&quot;http://yuo.be/columns.php&quot;&gt;Columns UI&lt;/a&gt; 組件創建的 &lt;a href=&quot;http://www.foobar2000.org/&quot;&gt;foobar2000&lt;/a&gt; 皮膚&lt;/p&gt;
+
+&lt;h2&gt;與原版 MonoLite 有什麽不同？&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;增加歌詞顯示功能，支持自動下載歌詞&lt;/li&gt;
+  &lt;li&gt;增加藝術家簡介功能，信息來自 Last.fm&lt;/li&gt;
+  &lt;li&gt;集成 Last.fm 同步功能，支持點擊圖標增加 Love 曲目&lt;/li&gt;
+  &lt;li&gt;增加多種列表顯示模式（普通、&lt;del datetime=&quot;2010-01-11T12:48:16+00:00&quot;&gt;緊湊&lt;/del&gt;、大圖標、小圖標等）&lt;/li&gt;
+  &lt;li&gt;專輯標題樣式美化，增加陰影效果，修改字體&lt;/li&gt;
+  &lt;li&gt;多處界面細節調整&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;strong&gt;MonoLite Plus 0.4.* 界面截圖：&lt;/strong&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-04-01.png&quot;&gt;#1&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-04-02.png&quot;&gt;#2&lt;/a&gt;
+&lt;br /&gt;
+&lt;strong&gt;MonoLite Plus 0.2 / 0.3.* 界面截圖：&lt;/strong&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-02-01.png&quot;&gt;#1&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-02-02.png&quot;&gt;#2&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-02-03.png&quot;&gt;#3&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-02-04.png&quot;&gt;#4&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-02-05.png&quot;&gt;#5&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-02-06.png&quot;&gt;#6&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-02-07.png&quot;&gt;#7&lt;/a&gt;
+&lt;br /&gt;
+&lt;strong&gt;MonoLite Plus 0.1 界面截圖：&lt;/strong&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-01.png&quot;&gt;#1&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-02.png&quot;&gt;#2&lt;/a&gt;
+  &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-03.png&quot;&gt;#3&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h2&gt;MonoLite Plus 安裝向導 (Portable 模式)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;複制壓縮包中所有文件到 fooobar2000 文件夾&lt;/li&gt;
+  &lt;li&gt;運行 foobar2000 並選擇 Columns UI&lt;/li&gt;
+  &lt;li&gt;依次打開 Preferences &amp;#8250; Display &amp;#8250; Columns UI，然後導入皮膚 &lt;code&gt;file mono_lite.fcl&lt;/code&gt; &lt;em&gt;（foobar2000 1.0 無需此設置）&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;大功告成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;MonoLite Plus 安裝向導 (標准模式)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;將配置文件位置修改爲應用程序安裝目錄，位于選項中的 General 處修改&lt;/li&gt;
+  &lt;li&gt;這樣會重制你的設置，因此修改爲 portable 後請手動轉移原配置到新目錄&lt;/li&gt;
+  &lt;li&gt;然後照做 Portable 模式下的安裝方法&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Last.fm 功能安裝向導&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;首先執行 monolite_lastfm_install.bat 文件，相關組件會自動安裝&lt;/li&gt;
+  &lt;li&gt;在心形圖標的右鍵菜單處輸入用戶名與 API 密鑰&lt;/li&gt;
+  &lt;li&gt;如沒有 API 密鑰則需要從 &lt;a href=&quot;http://www.last.fm/api/account&quot;&gt;這裏&lt;/a&gt; 申請&lt;/li&gt;
+  &lt;li&gt;運行 foobar2000 並在設置窗口中的 Tools / Audioscrobbler 與 Tools / Soft Playlists 面板中輸入您的帳戶信息&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Last.fm 功能移除向導&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;退出 foobar2000，然後運行 monolite_remove_lastfm.bat，所有的相關文件會被移動到 monolite_backup 文件夾&lt;/li&gt;
+  &lt;li&gt;如果哪天突然想用 Last.fm 了，則運行 monolite_restore_lastfm.bat 然後菜單中選回 Monolite Plus with Last.fm 所有的相關文件及配置即可還原&lt;/li&gt;
+  &lt;li&gt;選中菜單中的 View / Layout / MonoLite Plus (Without Last.fm Icon) 可以去掉其圖標&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;會自動生成的內容&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;%foobar_dir%\lyrics\*&lt;/code&gt; - 歌詞存放目錄 (foo_uie_lyrics.dl)&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;%foobar_dir%\lastfm\*&lt;/code&gt; - 藝術家、專輯圖片 (foo_uie_biography.dll)&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;%foobar_dir%\customdb_sqlite.db&lt;/code&gt; - Last.fm 數據庫 (foo_customdb.dll)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;如果不想自動生成這些文件，可在設置中禁用&lt;/p&gt;
+
+&lt;h2&gt;使用技巧&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;左鍵雙擊專輯分類=全選該分類下的曲目；中鍵單擊曲目=打開曲目屬性窗口&lt;/li&gt;
+  &lt;li&gt;音樂庫中中鍵點擊某項=將該項目添加到新播放列表並播放&lt;/li&gt;
+  &lt;li&gt;通過右鍵菜單 Tagging / Quick Tagger / Set &amp;lt;rating&amp;gt; to... 可以爲曲目評星，也可在設置界面中爲此功能綁定快捷鍵，例如 ALT 1-5，ALT + 6 取消評星&lt;/li&gt;
+  &lt;li&gt;隱藏菜單欄、狀態欄會有更好的視覺效果。菜單欄可以在需要的時候點擊右上角的按鈕顯示&lt;/li&gt;
+  &lt;li&gt;在播放列表任意位置點擊右鍵，即可修改 Sort 與 Group by 類型&lt;/li&gt;
+  &lt;li&gt;當修改了 Group by 類型後，專輯封面大小會發生變化，導致專輯封面顯示模糊，此時右鍵點擊列表任意位置選 Refresh all 即可&lt;/li&gt;
+  &lt;li&gt;建議 &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/monolite-plus-04.png&quot;&gt;如圖修改&lt;/a&gt; 快捷鍵設置，從此敲擊空格即可定位到正在播放的曲目&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Windows XP 用戶&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;需要安裝 Segoe UI 才能顯示正確字體，字體請從 &lt;del datetime=&quot;2010-10-17T08:34:52+00:00&quot;&gt;下方下載區下載&lt;/del&gt; 網上自行搜索&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;聲明&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;MonoLite 原作者爲 fanco86 &lt;a href=&quot;http://fanco86.deviantart.com/art/MonoLite-122756120&quot;&gt;#&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MonoLite Plus 由 Sparanoid 修改 &lt;a href=&quot;http://junior-spirit.deviantart.com/art/MonoLite-Plus-144505359/&quot;&gt;#&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MonoLite Plus 爲 MonoLite 的修改版&lt;/li&gt;
+  &lt;li&gt;Last.fm WSH Panel 代碼由 marc2003 編寫 &lt;a href=&quot;http://www.hydrogenaudio.org/forums/index.php?showtopic=76772&quot;&gt;#&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;光盤圖標由 PaulEnsane 制作 &lt;a href=&quot;http://paulensane.deviantart.com/art/CD-Icon-115783933&quot;&gt;#&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;心形圖標由 Tango Desktop Project 制作 &lt;a href=&quot;http://tango.freedesktop.org/Tango_Desktop_Project&quot;&gt;#&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;感歎號圖標由 Yusuke Kamiyamane 制作 &lt;a href=&quot;http://www.pinvoke.com/&quot;&gt;#&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;媒體庫查看方式代碼基于 hydrogenaudio.org 論壇的 2E7AH 修改 &lt;a href=&quot;http://www.hydrogenaudio.org/forums/index.php?s=&amp;amp;showtopic=68552&amp;amp;view=findpost&amp;amp;p=684400&quot;&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;note&quot;&gt;該主題基于 &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh&quot;&gt;署名-非商業性使用-相同方式共享 3.0 發布&lt;/a&gt;&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/monolite-plus-043.7z&quot;&gt;Download&lt;/a&gt; / monolite-plus-043.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/monolite-plus-043.7z&quot;&gt;Download&lt;/a&gt; / monolite-plus-042.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/monolite-plus-043.7z&quot;&gt;Download&lt;/a&gt; / monolite-plus-041.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/monolite-plus-043.7z&quot;&gt;Download&lt;/a&gt; / monolite-plus-04.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/monolite-plus-043.7z&quot;&gt;Download&lt;/a&gt; / monolite-plus-031.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/monolite-plus-043.7z&quot;&gt;Download&lt;/a&gt; / monolite-plus-03.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/monolite-plus-043.7z&quot;&gt;Download&lt;/a&gt; / monolite-plus-02.7z&lt;/p&gt;
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/monolite-plus-043.7z&quot;&gt;Download&lt;/a&gt; / monolite-plus-01.7z&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>A foobar2000 theme based on Columns UI</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>7-Zip Iconset Redesign v2</title>
+        <id>http://0.0.0.0:4321//work/7z-icon/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/7z-icon/" />
+        <published>2008-11-24T00:00:00+08:00</published>
+
+        
+          <updated>2008-11-24T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/7z-icon-2_logo_large.png&quot; alt=&quot;7-Zip 美化圖標組&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The 2&lt;sup&gt;nd&lt;/sup&gt; icon set for 7-Zip, works fine on Windows 7. The font used in icons is created by &lt;a href=&quot;http://www.myfonts.com/fonts/larabie/saved-by-zero/&quot;&gt;Saved by Zero&lt;/a&gt;. The original &lt;a href=&quot;http://thvg.deviantart.com/art/Package-Icons-93530123&quot;&gt;box template&lt;/a&gt; is created by &lt;a href=&quot;http://thvg.deviantart.com/&quot;&gt;Thvg&lt;/a&gt; on deviantART&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/7z-icon-2_details_large.png&quot;&gt;Icons preview&lt;/a&gt; / &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/7z-icon-set-v2.7z&quot;&gt;Download&lt;/a&gt; (for 4.6.1 beta x86)&lt;/p&gt;
+
+&lt;h2&gt;Notice&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure you’ve installed 7-Zip before installing this icon set.&lt;/li&gt;
+&lt;li&gt;This installer will backup your original icons with uninstaller. Uninstall this icon set can restore you 7-Zip icons.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;note&quot;&gt;This project is discontinued, but you can try &lt;a href=&quot;http://7ztm.de.vu/&quot;&gt;this tool&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Chinese Description&lt;/h2&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;此爲第二版美化圖標組，新版本圖標可以在 Windows 7 下完美顯示。圖標中使用的字體爲 &lt;a href=&quot;http://www.myfonts.com/fonts/larabie/saved-by-zero/&quot;&gt;Saved by Zero&lt;/a&gt;。紙箱子 &lt;a href=&quot;http://thvg.deviantart.com/art/Package-Icons-93530123&quot;&gt;素材&lt;/a&gt; 由來自 deviantART 的 &lt;a href=&quot;http://thvg.deviantart.com/&quot;&gt;Thvg&lt;/a&gt; 授權提供&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/7z-icon-2_details_large.png&quot;&gt;圖標詳細樣式預覽&lt;/a&gt; / &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/7z-icon-set-v2.7z&quot;&gt;下載&lt;/a&gt; (for 4.6.1 beta x86)&lt;/p&gt;
+
+&lt;h2&gt;注意事項&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;安裝本圖標組之前請確定您已經正確安裝了 7-Zip 原程序&lt;/li&gt;
+&lt;li&gt;安裝前會對原作者的圖標文件進行備份，附刪除程序。刪除後可恢複原圖標&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;note&quot;&gt;尋找 7-Zip 可用的圖標組？可以試試 &lt;a href=&quot;http://7ztm.de.vu/&quot;&gt;這個工具&lt;/a&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>A redesigned iconset for 7-Zip File Manager</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Font Zomnk</title>
+        <id>http://0.0.0.0:4321//work/zomnk/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/zomnk/" />
+        <published>2008-07-26T00:00:00+08:00</published>
+
+        
+          <updated>2008-07-26T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/font-zomnk.png&quot; alt=&quot;Font 'Zomnk'&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;第一次做字體，或者說是改，或者叫 Redesign，或者叫 Repack，叫什麽都好，反正做的難免有些粗糙。用的是 FontLab Studio 5 做的，這是一款大小寫格式相同的英文字體。字體部分借鑒了某品牌的幼線體，因此……請低調宣傳。做這款字體的初衷是應用于 v13 主題 的 Flash 字體顯示，本來還想做 OpenType，後來嫌麻煩，又不用于印刷，直接做了 TT 格式的。優化了標點符號的顯示，可以在這裏看 &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/font-zomnk-screenshot-02.png&quot;&gt;修改前&lt;/a&gt; 和 &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/font-zomnk-screenshot-03.png&quot;&gt;修改後&lt;/a&gt; 的效果&lt;/p&gt;
+
+&lt;h2&gt;English Description&lt;/h2&gt;
+
+&lt;p&gt;This is the first time I make my own font, or let me say it, “remix”. Created by FontLab Studio 5. Only uppercased characters included mainly used for my v13 theme in Flash. Only TrueType provided at the moment. You can compare the differences &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/font-zomnk-screenshot-02.png&quot;&gt;before&lt;/a&gt; and &lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/font-zomnk-screenshot-03.png&quot;&gt;after&lt;/a&gt; modifying&lt;/p&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/download/font-zomnk.7z&quot;&gt;Download&lt;/a&gt; / font-zomnk.7z&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>A true-type font used for my old WordPress theme</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>UPC Dope Show</title>
+        <id>http://0.0.0.0:4321//work/upc-dope-show/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/upc-dope-show/" />
+        <published>2008-07-19T00:00:00+08:00</published>
+
+        
+          <updated>2008-07-19T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/upc-dope-show.jpg&quot; alt=&quot;UPC Dope Show&quot; data-background=&quot;rgba(0, 0, 0, .9)&quot; data-padding=&quot;0&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>We’re all stars now, in the dope show</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>RX Hidden FKER a JPER</title>
+        <id>http://0.0.0.0:4321//work/rx-hidden-fker-a-jper/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/rx-hidden-fker-a-jper/" />
+        <published>2007-10-20T00:00:00+08:00</published>
+
+        
+          <updated>2007-10-20T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/rx-hidden-fker-a-jper.jpg&quot; alt=&quot;RX Hidden FKER A JPER&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Finished in my high school</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>RX R.T.S_01-04</title>
+        <id>http://0.0.0.0:4321//work/rx-rts/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/rx-rts/" />
+        <published>2007-10-06T00:00:00+08:00</published>
+
+        
+          <updated>2007-10-06T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/rx-rts_01.jpg&quot; alt=&quot;RX R.T.S_01&quot; data-background=&quot;rgba(0, 0, 0, .9)&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;明天還有期中考試，我卻在這裏亂塗亂畫，這的確是罪該萬死了&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/rx-rts_02.jpg&quot; alt=&quot;RX R.T.S_02&quot; data-background=&quot;rgba(0, 0, 0, .9)&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;最近經常 R.T.S，這的確很難受，窗外的這番景象看了 16 年，我想還是用我的方式給記錄下來吧&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/rx-rts_03.jpg&quot; alt=&quot;RX R.T.S_03&quot; data-background=&quot;rgba(0, 0, 0, .9)&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;還是用鼠標畫的，數位板可望不可及&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/rx-rts_04.jpg&quot; alt=&quot;RX R.T.S_03&quot; data-background=&quot;rgba(0, 0, 0, .9)&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;這個時間比較長，7 hr（小時），分了兩天畫的&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>No description</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>6:53 pm / 0:25 am (inv)</title>
+        <id>http://0.0.0.0:4321//work/1853-0025-0025-inv/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/1853-0025-0025-inv/" />
+        <published>2007-07-06T00:00:00+08:00</published>
+
+        
+          <updated>2007-07-06T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;h2&gt;6:53 PM&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/0653-pm.jpg&quot; alt=&quot;6:53 PM&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;00:25 AM&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/0025-am.jpg&quot; alt=&quot;00:25 AM&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;00:25 AM [INV]&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/0025-am-inv.jpg&quot; alt=&quot;00:25 AM [INV]&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Finished in my high school</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Countryroad</title>
+        <id>http://0.0.0.0:4321//work/countryroad/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/countryroad/" />
+        <published>2007-04-29T00:00:00+08:00</published>
+
+        
+          <updated>2007-04-29T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/countryroad.jpg&quot; alt=&quot;Countryroad&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Cuntryroad</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Gouache - Trees</title>
+        <id>http://0.0.0.0:4321//work/gouache-trees/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/gouache-trees/" />
+        <published>2007-04-22T00:00:00+08:00</published>
+
+        
+          <updated>2007-04-22T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/gouache-trees.jpg&quot; alt=&quot;Gouache - Trees&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Gouache - Trees</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Copland</title>
+        <id>http://0.0.0.0:4321//work/cropland/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/cropland/" />
+        <published>2007-04-21T00:00:00+08:00</published>
+
+        
+          <updated>2007-04-21T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/cropland.jpg&quot; alt=&quot;Cropland&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Cropland</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Outgrow</title>
+        <id>http://0.0.0.0:4321//work/outgrow/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/outgrow/" />
+        <published>2007-04-17T00:00:00+08:00</published>
+
+        
+          <updated>2007-04-17T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/outgrow.jpg&quot; alt=&quot;Outgrow&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Outgrow</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Backlighting</title>
+        <id>http://0.0.0.0:4321//work/backlighting/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/backlighting/" />
+        <published>2007-04-15T00:00:00+08:00</published>
+
+        
+          <updated>2007-04-15T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/backlighting.jpg&quot; alt=&quot;Backlighting&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Backlighting</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Withered</title>
+        <id>http://0.0.0.0:4321//work/withered/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/withered/" />
+        <published>2006-10-28T00:00:00+08:00</published>
+
+        
+          <updated>2006-10-28T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/withered.jpg&quot; alt=&quot;Withered&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Withered</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Old High School</title>
+        <id>http://0.0.0.0:4321//work/old-high-school/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/old-high-school/" />
+        <published>2006-09-18T00:00:00+08:00</published>
+
+        
+          <updated>2006-09-18T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/old_high_school.jpg&quot; alt=&quot;Old High School&quot; /&gt;&lt;/p&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;My old high school, before we moved to a new one. 學校搬家前的校舍，正在上最後一課&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>My old high school, before we moved to a new one.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Another Alley [Mod]</title>
+        <id>http://0.0.0.0:4321//work/another-alley-mod/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/another-alley-mod/" />
+        <published>2006-04-15T00:00:00+08:00</published>
+
+        
+          <updated>2006-04-15T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/another-alley-mod.jpg&quot; alt=&quot;Another Alley [Mod]&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Another Alley [Mod]</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Tree 04060651</title>
+        <id>http://0.0.0.0:4321//work/tree-04060651/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/tree-04060651/" />
+        <published>2006-04-06T00:00:00+08:00</published>
+
+        
+          <updated>2006-04-06T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;img src=&quot;//sparanoid.s3-website-us-east-1.amazonaws.com/work/tree-04060651.jpg&quot; alt=&quot;Tree 04060651&quot; /&gt;&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Tree 04060651</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Quotmarks Replacer</title>
+        <id>http://0.0.0.0:4321//work/quotmarks-replacer/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/quotmarks-replacer/" />
+        <published>2006-01-29T00:00:00+08:00</published>
+
+        
+          <updated>2006-01-29T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;&lt;strong&gt;Quotmarks Replacer&lt;/strong&gt; is a WordPress plugin to disable &lt;code&gt;wptexturize&lt;/code&gt; function that keeps all quotation marks and suspension points in half-width form.&lt;/p&gt;
+
+&lt;blockquote cite=&quot;http://www.apple.com/stevejobs/&quot;&gt;
+  &lt;p&gt;It’s absolutely amazing. One of my all-time favorites.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;cite&gt;Steve Jobs&lt;/cite&gt;
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote cite=&quot;http://wordpress.org/&quot;&gt;
+  &lt;p&gt;Shut up, Matt.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;cite&gt;WordPress&lt;/cite&gt;
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Chinese Description&lt;/h2&gt;
+
+&lt;p lang=&quot;zh&quot;&gt;&lt;strong&gt;Quotmarks Replacer&lt;/strong&gt; 通過禁用 &lt;code&gt;wptexturize&lt;/code&gt; 函數，解決 WordPress 自動將半形的單引號、雙引號和省略號轉換爲全形標點的問題。使後台輸入的標點格式與前台讀者瀏覽的標點格式保持一致。並且對 multisite 多站點（WordPress Mu）有良好的支持&lt;/p&gt;
+
+&lt;blockquote cite=&quot;http://www.hecaitou.com/&quot;&gt;
+  &lt;p lang=&quot;zh&quot;&gt;我──一個網絡民工──當然有人會覺得這是謙虛，終於擁有了強悍的標點符號插件──也可能是世界上最棒的！我可以這樣雙引號“”，也可以這樣&quot;&quot;，還可以這樣&quot;──無論是哪一樣，都是最自由的表達！&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;cite&gt;&lt;a href=&quot;http://web.archive.org/web/20131223105544/http://www.hecaitou.com/blogs/hecaitou/archives/119925.aspx&quot;&gt;和菜頭&lt;/a&gt;&lt;/cite&gt;
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+
+&lt;p class=&quot;download&quot;&gt;&lt;a href=&quot;http://wordpress.org/extend/plugins/quotmarks-replacer/&quot;&gt;Download&lt;/a&gt; it at WordPress.org&lt;/p&gt;
+
+&lt;p class=&quot;store&quot;&gt;Love this plugin? please consider &lt;a href=&quot;/donate/&quot;&gt;buying me a cup of coffee.&lt;/a&gt;&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;http://wordpress.org/plugins/quotmarks-replacer/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>A plugin that disables wptexturize function</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>7-Zip Chinese Simplified</title>
+        <id>http://0.0.0.0:4321//work/7z-chs/</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321//work/7z-chs/" />
+        <published>2004-11-09T00:00:00+08:00</published>
+
+        
+          <updated>2004-11-09T00:00:00+08:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321//">
+          
+            &lt;p&gt;Official 7-Zip Chinese Simplified Localization Project.&lt;/p&gt;
+
+          
+          
+        
+          &lt;p&gt;&lt;a href=&quot;/lab/7z/&quot;&gt;&lt;small&gt;◉ Direct Link to Original Site&lt;/small&gt;&lt;/a&gt;&lt;/p&gt;
+        
+      
+        </content>
+
+        
+          <summary>Official 7-Zip Chinese Simplified Localization Project</summary>
+        
+      </entry>
+    
+  
+</feed>

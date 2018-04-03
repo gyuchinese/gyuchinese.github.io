@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://0.0.0.0:4321/</loc>
+    <lastmod>2018-03-25</lastmod>
+  </url>
+
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/about/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/donate/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/email-signup/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/email/subscribed/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/email/unsubscribed/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/email/verify/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/error/</loc>
+        
+      </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/store/</loc>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/</loc>
+        
+      </url>
+    
+  
+
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/cloudfront-hsts/</loc>
+        
+          <lastmod>2017-11-13</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/omnibox-ncr/</loc>
+        
+          <lastmod>2016-11-16</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/ikea-stock-availability-checker/</loc>
+        
+          <lastmod>2016-04-06</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/lightense-images/</loc>
+        
+          <lastmod>2016-03-10</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/dmarc/</loc>
+        
+          <lastmod>2015-12-27</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/http2-and-ecdsa-cipher-suites/</loc>
+        
+          <lastmod>2015-10-16</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/public-key-pinning-and-hpkp-reporting/</loc>
+        
+          <lastmod>2015-09-16</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/almace-scaffolding/</loc>
+        
+          <lastmod>2015-09-09</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/slimpack/</loc>
+        
+          <lastmod>2015-09-08</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/cloudfront-cost-control/</loc>
+        
+          <lastmod>2015-08-30</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/apple-music-playlists/</loc>
+        
+          <lastmod>2015-08-21</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/ansible-advanced-lineinfile/</loc>
+        
+          <lastmod>2015-08-16</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/ansible/</loc>
+        
+          <lastmod>2015-05-19</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/amazon-s3-cloudfront/</loc>
+        
+          <lastmod>2015-04-27</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/itunes-artwork-grabber/</loc>
+        
+          <lastmod>2015-04-21</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/shutdown-like-a-boss/</loc>
+        
+          <lastmod>2015-01-02</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/chinese-copywriting-guidelines/</loc>
+        
+          <lastmod>2014-10-31</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/disable-wysiwyg/</loc>
+        
+          <lastmod>2014-09-08</lastmod>
+        
+      </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/avoscloud/</loc>
+        
+          <lastmod>2014-05-16</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/space-lover/</loc>
+        
+          <lastmod>2014-03-26</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/moonstruck-princess-ext/</loc>
+        
+          <lastmod>2014-01-06</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/delicious/</loc>
+        
+          <lastmod>2013-11-01</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/tianjin-project-revision/</loc>
+        
+          <lastmod>2013-10-29</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/itercast/</loc>
+        
+          <lastmod>2013-08-07</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/ocsp-stapling-nginx/</loc>
+        
+          <lastmod>2013-04-27</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/spdy-draft-2-nginx/</loc>
+        
+          <lastmod>2013-04-02</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/kai/</loc>
+        
+          <lastmod>2013-03-23</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/ala-5.0/</loc>
+        
+          <lastmod>2013-01-26</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/readwise/</loc>
+        
+          <lastmod>2012-12-13</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/corner-bracket-lover/</loc>
+        
+          <lastmod>2012-12-12</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/instagram-badges/</loc>
+        
+          <lastmod>2012-11-25</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/3.1-billion-in-a-day/</loc>
+        
+          <lastmod>2012-11-13</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/playing-with-ocsp-stapling/</loc>
+        
+          <lastmod>2012-11-04</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/playing-with-spdy-draft-2/</loc>
+        
+          <lastmod>2012-10-12</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/relative-url/</loc>
+        
+          <lastmod>2012-09-16</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/safari-6-gets-faster/</loc>
+        
+          <lastmod>2012-07-30</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/tianjin-project-wef/</loc>
+        
+          <lastmod>2012-07-26</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/big-typography-dynasty/</loc>
+        
+          <lastmod>2012-07-14</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/free-dribbble-invite/</loc>
+        
+          <lastmod>2012-06-24</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/i-dont-get-art/</loc>
+        
+          <lastmod>2012-06-18</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/tianjin-project/</loc>
+        
+          <lastmod>2012-06-11</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/path-menu-in-css/</loc>
+        
+          <lastmod>2011-12-07</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/minimalist-syndrome/</loc>
+        
+          <lastmod>2011-10-05</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/crystallized-dream/</loc>
+        
+          <lastmod>2011-08-28</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/moonstruck-princess/</loc>
+        
+          <lastmod>2011-07-31</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/railgun/</loc>
+        
+          <lastmod>2011-07-19</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/start-page/</loc>
+        
+          <lastmod>2011-07-18</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/030buy-hiring/</loc>
+        
+          <lastmod>2011-07-17</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/nite/</loc>
+        
+          <lastmod>2011-07-16</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/030buy/</loc>
+        
+          <lastmod>2011-07-10</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/findac-alter/</loc>
+        
+          <lastmod>2011-07-05</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/tianjin-impression-brochure/</loc>
+        
+          <lastmod>2011-05-08</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/cyrconplex/</loc>
+        
+          <lastmod>2011-05-06</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/nv/</loc>
+        
+          <lastmod>2011-04-02</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/fogbound-highrise/</loc>
+        
+          <lastmod>2011-03-07</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/readability/</loc>
+        
+          <lastmod>2011-02-20</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/brand-new/</loc>
+        
+          <lastmod>2010-12-18</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/slimbox-and-voxgrowl/</loc>
+        
+          <lastmod>2010-12-05</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/lindsay-koinaka-2/</loc>
+        
+          <lastmod>2010-10-21</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/lucky-star-ime-theme/</loc>
+        
+          <lastmod>2010-09-15</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/lindsay-koinaka/</loc>
+        
+          <lastmod>2010-09-05</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/drrr/</loc>
+        
+          <lastmod>2010-05-03</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/judgment-screensaver-icon/</loc>
+        
+          <lastmod>2010-03-07</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/imouto.tk/</loc>
+        
+          <lastmod>2010-02-10</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/monolite-plus/</loc>
+        
+          <lastmod>2009-11-23</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/lesters-plugins-in-chinese/</loc>
+        
+          <lastmod>2009-08-06</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/need-more-space/</loc>
+        
+          <lastmod>2009-07-28</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/7z-icon/</loc>
+        
+          <lastmod>2008-11-24</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/zomnk/</loc>
+        
+          <lastmod>2008-07-26</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/upc-dope-show/</loc>
+        
+          <lastmod>2008-07-19</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/rx-hidden-fker-a-jper/</loc>
+        
+          <lastmod>2007-10-20</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/rx-rts/</loc>
+        
+          <lastmod>2007-10-06</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/bugmirror/</loc>
+        
+          <lastmod>2007-08-20</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/7zip-sourceforge-cca07/</loc>
+        
+          <lastmod>2007-08-04</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/a-new-keyboard/</loc>
+        
+          <lastmod>2007-07-28</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/1853-0025-0025-inv/</loc>
+        
+          <lastmod>2007-07-06</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/countryroad/</loc>
+        
+          <lastmod>2007-04-29</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/gouache-trees/</loc>
+        
+          <lastmod>2007-04-22</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/cropland/</loc>
+        
+          <lastmod>2007-04-21</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/outgrow/</loc>
+        
+          <lastmod>2007-04-17</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/backlighting/</loc>
+        
+          <lastmod>2007-04-15</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/withered/</loc>
+        
+          <lastmod>2006-10-28</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/old-high-school/</loc>
+        
+          <lastmod>2006-09-18</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/7-zip-portable/</loc>
+        
+          <lastmod>2006-08-24</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/segoe-ui/</loc>
+        
+          <lastmod>2006-05-19</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/another-alley-mod/</loc>
+        
+          <lastmod>2006-04-15</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/tree-04060651/</loc>
+        
+          <lastmod>2006-04-06</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/quotmarks-replacer/</loc>
+        
+          <lastmod>2006-01-29</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/note/hello-world/</loc>
+        
+          <lastmod>2005-10-21</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://0.0.0.0:4321/work/7z-chs/</loc>
+        
+          <lastmod>2004-11-09</lastmod>
+        
+      </url>
+    
+  
+
+</urlset>

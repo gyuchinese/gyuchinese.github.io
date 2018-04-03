@@ -1,25 +1,582 @@
----
-layout: default
-title: Almace Scaffolding
-permalink: /
----
 
-<!-- Article wrapper, limit width -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+
+<!--
+  Apply head only for dev environment, this is required for jekyll to
+  insert livereload scripts
+-->
+
+  <head>
+
+
+
+  <meta charset="utf-8">
+
+
+<title>Sparanoid</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- Define a description for better SEO result -->
+<meta name="description" content="I make things that don’t suck.">
+
+<!-- Cheome Web App theme color -->
+<meta name="theme-color" content="#a212d1">
+
+<!-- Feed URL -->
+<link rel="alternate" href="/feed.xml" type="application/atom+xml">
+
+<!-- Site icons -->
+
+  
+    
+
+    
+
+    
+
+    
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+      <link rel="icon" href="/favicon.png" type="image/png">
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+      <link rel="icon" href="/favicon.svg?assets-inline-assets-keep" sizes="any" type="image/svg+xml">
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+
+    
+  
+    
+
+    
+
+    
+      <link rel="mask-icon" href="/mask-icon.svg" color="#a212d1">
+    
+
+    
+  
+
+
+<!-- Chrome Web App manifest -->
+<link rel="manifest" href="/manifest.json">
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="/assets/themes/curtana/css/app.css?assets-inline">
+
+<!-- Canonical links, avoid duplicate content problems -->
+<link rel="canonical" href="http://0.0.0.0:4321/">
+
+<!-- DNS prefetching for static files -->
+<link rel="dns-prefetch" href="//sparanoid.s3-website-us-east-1.amazonaws.com">
+
+<!-- Head hooks -->
+
+
+
+  </head>
+
+
+<!-- Open Graph and Twitter Cards support, more info: https://dev.twitter.com/docs/cards -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sparanoid">
+<meta property="og:title" content="Sparanoid">
+<meta property="og:url" content="http://0.0.0.0:4321/">
+<meta property="og:description" content="I make things that don’t suck.">
+<meta property="og:image" content="http://0.0.0.0:4321/logo.png">
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+  <meta name="twitter:site" content="@sparanoid">
+
+
+
+  <meta name="twitter:creator" content="@tunghsiao">
+
+
+
+
+<!-- Post specified styles -->
+<style data-assets-inline>
+  /*
+    TODO: You have to speicify background color for `html` in order to make `-webkit-filter` work
+    Link: https://bugs.chromium.org/p/chromium/issues/detail?id=591015
+    Date: Mar 1, 2016, 5:41 PM
+  */
+  html {
+    
+  }
+
+  body {
+    
+
+    
+
+    
+  }
+
+  
+
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+
+  /*
+    TODO: Need a better solution. I have to redefine the whole box-shadow here because no invidual box-shadow-color exists
+    Date: Mar 12, 2016, 12:09 AM
+  */
+  
+
+  
+
+  
+
+  
+</style>
+
+<!-- Main navigation with current page / categoriy highlighted -->
+<nav class="navigation">
+  <ul>
+    
+      
+
+
+
+
+
+
+
+
+      
+      
+      <li class=current>
+        <a href="/">
+          
+            Sparanoid
+          
+        </a>
+      </li>
+    
+      
+
+
+
+
+
+
+
+
+      
+      
+      <li >
+        <a href="/work/">
+          
+            Work
+          
+        </a>
+      </li>
+    
+      
+
+
+
+
+
+
+
+
+      
+      
+      <li >
+        <a href="/note/">
+          
+            Note
+          
+        </a>
+      </li>
+    
+      
+
+
+
+
+
+
+
+
+      
+      
+      <li >
+        <a href="/about/">
+          
+            About
+          
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+<!-- Main content wrap -->
+<main class="content " role=main>
+  <!-- Article wrapper, limit width -->
 <article>
 
   <!-- Post title -->
   <header>
-    <svg class=amsf-logo width="955" height="955" viewBox="0 0 955 955" xmlns="http://www.w3.org/2000/svg"><title>jekyll-scaffolding</title><g stroke="#FF00B4" fill="none"><circle cx="478" cy="478" r="439"/><path d="M837 710L119 244M119 709l718-466M142.5 709H815M142.5 244H815"/></g></svg>
-    <h2 class=amsf-title>
-      Almace Scaffolding
-    </h2>
-
-    <small>a.k.a. amsf, version 0.0.15</small>
+    <h1>
+      Sparanoid
+      
+        recently made <a href="/work/omnibox-ncr/" class=latest>Omnibox NCR</a>
+      
+    </h1>
   </header>
-
-  <ul class=list>
-    {% for post in site.categories.note %}
-      {% include page-item.html %}
-    {% endfor %}
-  </ul>
 </article>
+
+</main>
+
+<!-- Footer section -->
+
+  <footer class="footer">
+    <ul>
+      <li><a href="/">Sparanoid</a></li>
+
+      
+        <li><a href="https://sparanoid.com/lab/amsf/" title="Almace Scaffolding">AMSF</a></li>
+        <li><a href="https://sparanoid.com/lab/amsf/theme-curtana.html" title="Curtana">Curtana</a></li>
+      
+
+      
+    </ul>
+  </footer>
+
+
+<!-- Theme scripts -->
+<script src="/assets/themes/curtana/js/app.js?assets-inline"></script>
+
+<!-- User scripts -->
+<script src="/assets/js/user.js?assets-inline"></script>
+
+<!-- Lightense Images -->
+
+
+<!-- Service Worker  -->
+
+  
+
+
+<!-- Google Analytics -->
+
+  
+
+
+<!-- Foot hooks -->
+
+
+
